@@ -86,7 +86,6 @@ fun main() {
             println("${deleteTargetId}번 명언은 존재하지 않습니다.")
             continue;
         }
-        wiseCnt--
         wises.removeAt(deleteTargetIdx);
         println("${deleteTargetId}번 명언이 삭제되었습니다.")
 
