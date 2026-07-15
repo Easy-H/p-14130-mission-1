@@ -70,7 +70,7 @@ fun main() {
             print("명언 : ")
             wise.content  = readln();
             println("작가(기존) : ${wise.author}");
-            print("명언 : ")
+            print("작가 : ")
             wise.author = readln();
 
             continue;
